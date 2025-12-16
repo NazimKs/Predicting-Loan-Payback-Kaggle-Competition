@@ -26,7 +26,8 @@ The competition uses **AUC-ROC (Area Under the ROC Curve)** as the primary evalu
 Predicting-Loan-Payback-Kaggle-Competition/
 ├── data/
 │   ├── train.csv          # Training dataset (593,994 samples)
-│   └── test.csv           # Test dataset (254,569 samples)
+│   ├── test.csv           # Test dataset (254,569 samples)
+│   └── sample_submission.csv
 ├── models/
 │   ├── best_catboost_model.joblib
 │   ├── best_lgbm_model.joblib
@@ -38,6 +39,8 @@ Predicting-Loan-Payback-Kaggle-Competition/
 ├── assets/
 │   ├── AUC-ROC.png
 │   └── challenge.png
+├── docs/
+│   └── presentation.pdf   # Project presentation
 ├── predecting_load_payback_kaggle_competition.ipynb
 ├── requirements.txt
 ├── .gitignore
